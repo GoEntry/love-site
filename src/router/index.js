@@ -7,7 +7,7 @@ import Together from "../pages/Together.vue"
 import Letter from "../pages/Letter.vue"
 
 const router = createRouter({
-  history: createWebHistory('/love-site/'),
+  history: createWebHistory(),
   routes: [
     { path: "/", component: Home },
     { path: "/story", component: Story },
