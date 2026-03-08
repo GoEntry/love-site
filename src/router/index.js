@@ -8,6 +8,8 @@ import Letter from "../pages/Letter.vue"
 
 const router = createRouter({
   history: createWebHistory(),
+  linkActiveClass: "active",
+  linkExactActiveClass: "active",
   routes: [
     { path: "/", component: Home },
     { path: "/story", component: Story },
