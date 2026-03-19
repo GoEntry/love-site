@@ -43,7 +43,7 @@ body {
   background: linear-gradient(135deg, #ff7eb3, #ff758c);
   color: white;
   text-align: center;
-  padding-bottom: 80px;
+  /*padding-bottom: 80px;*/
 }
 
 nav {
